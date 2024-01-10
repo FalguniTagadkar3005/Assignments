@@ -1,0 +1,98 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color:#FAFAFA;
+    margin:0px;
+    padding:0px;
+}
+
+.container
+{
+    margin-top:72px;
+    margin-bottom:72px;
+}
+#hero_img
+{
+    overflow:wrap;
+    border-radius:50%;
+    border:20px solid #FFF;
+    box-shadow:0px 4px 31px #0000000A;
+
+}
+.right_container
+{
+    font-family:'Roboto' ,sans-serif;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    margin-left:10%;
+}
+#heading
+{
+    padding-top:2%;
+    font-size:2.2em;
+    font-weight:bold;
+    line-height:normal;
+    color:#3E3E3E;
+}
+#experts
+{
+    font-weight:bolder;
+    color:#C8242F;
+}
+#login
+{
+    padding-top:5%;
+    font-size: 1.5em;
+    font-weight:700;
+    color:#3E3E3E;
+}
+#username,#password
+{
+    height:20%;
+    width:80%;
+    padding:10px;
+    margin-top:20px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+
+::placeholder{
+     color:#ADADAD; 
+}
+
+#submit
+{
+    height:43px;
+    width:138px;
+    background:#C8242F;
+    color:white;
+    font-weight: bold;
+    border-radius:23px;
+}
+
+#submit_and_forgotpwd
+{
+    display:flex; 
+    justify-content: space-between;
+    margin-top:30px;
+    padding-right:20%;
+}
+#new_member
+{
+    font-weight:580; 
+    color:#ADADAD; 
+    margin-top:3px;
+}
+
+
+
+
