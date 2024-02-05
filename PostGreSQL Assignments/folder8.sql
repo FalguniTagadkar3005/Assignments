@@ -21,6 +21,7 @@ from (select first_name,count(first_name) as "countt"
 from actor
 group by first_name));
 
+
 select first_name,count(*)
 from actor
 group by first_name 
